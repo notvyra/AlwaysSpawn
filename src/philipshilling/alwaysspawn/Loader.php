@@ -9,7 +9,6 @@ use pocketmine\plugin\PluginBase as Plugin;
 class Loader extends Plugin implements Listener{
 	public function onEnable(): void{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getServer()->getLogger()->info("AlwaysSpawn Enabled!");
 	}
 
 	public function onPlayerLogin(PlayerLoginEvent $event){
