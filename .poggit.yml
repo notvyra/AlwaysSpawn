@@ -1,8 +1,7 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/poggit-orphanage/AlwaysSpawn
+# Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/poggit-orphanage/AlwaysSpawn
 branches:
 - final
 projects:
   AlwaysSpawn:
     path: ""
     icon: icon.png
-...
